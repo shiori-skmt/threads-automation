@@ -30,6 +30,11 @@
       "date": "2026-09-27",
       "slot": "manual",
       "type": "pr"
+    },
+    {
+      "date": "2026-09-29",
+      "slot": "noon",
+      "type": "tsubuyaki"
     }
   ]
 }
