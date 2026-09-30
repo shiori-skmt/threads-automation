@@ -19,6 +19,11 @@
       "itemCode": "yamagoiida:10000077",
       "date": "2026-09-27",
       "genre": "food"
+    },
+    {
+      "itemCode": "luck-ind:10000043",
+      "date": "2026-09-30",
+      "genre": "kitchen"
     }
   ]
 }

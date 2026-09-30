@@ -40,6 +40,11 @@
       "date": "2026-09-29",
       "slot": "evening",
       "type": "tsubuyaki"
+    },
+    {
+      "date": "2026-09-30",
+      "slot": "noon",
+      "type": "pr"
     }
   ]
 }
