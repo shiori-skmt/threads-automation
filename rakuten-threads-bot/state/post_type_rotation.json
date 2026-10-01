@@ -50,6 +50,11 @@
       "date": "2026-10-01",
       "slot": "noon",
       "type": "tsubuyaki"
+    },
+    {
+      "date": "2026-10-01",
+      "slot": "evening",
+      "type": "tsubuyaki"
     }
   ]
 }
