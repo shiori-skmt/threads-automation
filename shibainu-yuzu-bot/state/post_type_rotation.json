@@ -6,6 +6,7 @@
     {"date": "2026-09-27", "slot": "noon", "type": "tsubuyaki"},
     {"date": "2026-09-29", "slot": "noon", "type": "pr"},
     {"date": "2026-09-30", "slot": "noon", "type": "tsubuyaki"},
-    {"date": "2026-09-30", "slot": "evening", "type": "tsubuyaki"}
+    {"date": "2026-09-30", "slot": "evening", "type": "tsubuyaki"},
+    {"date": "2026-10-01", "slot": "noon", "type": "pr"}
   ]
 }
