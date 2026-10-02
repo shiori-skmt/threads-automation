@@ -35,7 +35,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 2. `state/morning_greeting/pending/{対象日}.md` または `approved/{対象日}.md` が既に存在する場合、何もせず終了する
 3. 内容を作る:
    - ベースは「おはよう」の一言+前向きな気持ち(ゆずとの朝の実感、柴犬らしい仕草など)
-   - **天気・季節ネタにする場合は、投稿前に必ず東京の実際の天気を確認し、内容と齟齬が無いようにする**(例: `curl -s "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current_weather=true"`)。確認できない/合わない場合はこのテーマを避ける
+   - **天気・季節ネタにする場合は、ドラフトは前日15時時点の予報に基づくため外れる可能性がある(実例: 曇り予報が当日晴れだった)。断定的に書かず、タスクBで投稿直前に再確認される前提にする。また、投稿前に必ず東京の実際の天気を確認し、内容と齟齬が無いようにする**(例: `curl -s "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current_weather=true"`)。確認できない/合わない場合はこのテーマを避ける
    - 約4回に1回程度(25%程度)の頻度で、末尾に小さなTipsを添える。Tipsは柴犬・犬全般のお世話のちょっとしたコツで、**商品名・ブランド名・アフィリエイトリンクは一切含めない**
    - ごく稀に(頻度は控えめ、毎回ではない)、緑内障との付き合い方や応援への感謝に軽く触れてもよいが、深刻になりすぎないこと
    - 基本は1投稿で書き切る
@@ -59,6 +59,11 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 1. 今日の日付(YYYY-MM-DD)に一致するファイルが `state/morning_greeting/approved/` にあるか確認する
 2. **無ければ**、`state/morning_greeting/pending/{今日の日付}.md` が残っていないか確認し、見送りを知らせて終了する
+2.5. **天気ネタの再確認(投稿直前・必須)**: 承認済みあいさつ本文に天気・気温・季節感の言及(晴れ/雨/曇り/暑い/涼しい/上着/傘/洗濯物など)がある場合、投稿直前に東京の実況・当日予報を取得して照合する:
+   ```bash
+   curl -s --max-time 20 "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current_weather=true&daily=weather_code,temperature_2m_max,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1"
+   ```
+   本文と食い違う場合(例: 「曇り」と書いたが晴れ)は**投稿せず**、食い違いの内容をセッションの最終メッセージに明記して終了する(勝手に書き換えて投稿しない。ユーザーの修正承認を待つ)。取得できない場合は天気言及があるときだけ見送る。
 3. あれば、PIPELINE.mdの「0. 認証情報の読み込み」と同様にプロンプト中の認証情報をexportした上で、Threads Publishing APIでテキストのみの単独投稿をする。
    ```
    POST https://graph.threads.com/v1.0/{THREADS_USER_ID}/threads
