@@ -24,6 +24,11 @@
       "itemCode": "luck-ind:10000043",
       "date": "2026-09-30",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "sonoshokuan:10000320",
+      "date": "2026-10-02",
+      "genre": "food"
     }
   ]
 }
