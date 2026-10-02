@@ -29,6 +29,11 @@
       "itemCode": "sonoshokuan:10000320",
       "date": "2026-10-02",
       "genre": "food"
+    },
+    {
+      "itemCode": "radianne:10000736",
+      "date": "2026-10-02",
+      "genre": "fashion"
     }
   ]
 }
