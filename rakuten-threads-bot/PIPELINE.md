@@ -97,6 +97,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 **手順:**
 
+0. **ユーザー指定の確認(最優先)**: `state/pending_drafts/{対象日}-{枠}.md` が既に存在し、冒頭に「ユーザー指定」と書かれている場合は、新しく作らず(上書きせず)、そのファイルの投稿文をそのままチャットに見せて「これでOKか」を尋ねて終了する。また `state/type_overrides.json` に `"{対象日}-{枠}": "pr"または"tsubuyaki"` があれば、手順2・3・4のローテーション判定より優先してそのタイプにする(履歴の記録は通常どおり行う)。
 1. `state/post_type_rotation.json` を読む(無ければ `{"target_pr_ratio": 0.4, "history": []}` として扱う)。`history` の各要素は `{"date": "YYYY-MM-DD", "slot": "noon"またはevening", "type": "pr"またはtsubuyaki"}`
 2. `history` の末尾2件が両方とも同じtypeなら、3連続を避けるため強制的にもう一方のtypeにする
 3. それ以外の場合、`history` の直近14件(1日2枠 × 約1週間分)における `"pr"` の比率を計算し、`target_pr_ratio` を下回っていれば「PR型」、上回っていれば「つぶやき型」を選ぶ。ちょうど同じ場合はPR型を選ぶ
