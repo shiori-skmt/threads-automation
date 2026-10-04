@@ -1,8 +1,6 @@
 {
   "target_pr_ratio": 0.4,
   "history": [
-    {"date": "2026-09-26", "slot": "noon", "type": "pr"},
-    {"date": "2026-09-26", "slot": "evening", "type": "tsubuyaki"},
     {"date": "2026-09-27", "slot": "noon", "type": "tsubuyaki"},
     {"date": "2026-09-29", "slot": "noon", "type": "pr"},
     {"date": "2026-09-30", "slot": "noon", "type": "tsubuyaki"},
@@ -13,6 +11,7 @@
     {"date": "2026-10-02", "slot": "evening", "type": "tsubuyaki"},
     {"date": "2026-10-03", "slot": "noon", "type": "pr"},
     {"date": "2026-10-03", "slot": "evening", "type": "pr"},
-    {"date": "2026-10-04", "slot": "noon", "type": "pr"}
+    {"date": "2026-10-04", "slot": "noon", "type": "pr"},
+    {"date": "2026-10-04", "slot": "evening", "type": "tsubuyaki"}
   ]
 }
