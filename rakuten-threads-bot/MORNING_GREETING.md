@@ -87,7 +87,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
    ```bash
    curl -s --max-time 20 "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current_weather=true&daily=weather_code,temperature_2m_max,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1"
    ```
-   本文と食い違う場合(例: 「曇り」と書いたが晴れ)は**投稿せず**、食い違いの内容をセッションの最終メッセージに明記して終了する(勝手に書き換えて投稿しない。ユーザーの修正承認を待つ)。取得できない場合は天気言及があるときだけ見送る。
+   本文と食い違う場合(例: 「曇り」と書いたが晴れ)は**投稿せず**、食い違いの内容をセッションの最終メッセージに明記して終了する(勝手に書き換えて投稿しない。ユーザーの修正承認を待つ)。取得に失敗した場合は、`--max-time 15` で最大3回まで再試行する(各回を独立したBash呼び出しにする)。それでも取得できない場合は、本文の天気表現が**気温・降水確率などの数字や、晴れ/曇り/雨の断定を含まない、あいまいな書き方**(例: 「あたたかくなりそう」「朝はひんやり」)であれば、そのまま投稿してよい。数字や断定を含む場合は投稿せず見送る。
 3. あれば、PIPELINE.mdの「0. 認証情報の読み込み」と同様にプロンプト中の認証情報をexportした上で、Threads Publishing APIでテキストのみの単独投稿をする。**curlコマンドを直接実行すること。Pythonなどのスクリプトファイルを生成して実行しないこと**(ブレース+クォートの組み合わせが「難読化っぽいパターン」として自動モードの安全確認に引っかかり、バイパス権限モードでも止まってしまうため)。**1回のBashツール呼び出しに複数のcurl・jqなどを`;`や`$()`でつなげて詰め込まないこと。「作成のcurl」「creation_idの取り出し」「公開のcurl」は、それぞれ独立したBashツール呼び出しに分ける**。curlには `--max-time 20` を付ける:
    ```
    POST https://graph.threads.com/v1.0/{THREADS_USER_ID}/threads
