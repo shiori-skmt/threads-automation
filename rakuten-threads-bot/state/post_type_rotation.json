@@ -7,21 +7,6 @@
       "type": "tsubuyaki"
     },
     {
-      "date": "2026-09-26",
-      "slot": "noon",
-      "type": "pr"
-    },
-    {
-      "date": "2026-09-27",
-      "slot": "noon",
-      "type": "tsubuyaki"
-    },
-    {
-      "date": "2026-09-27",
-      "slot": "manual",
-      "type": "pr"
-    },
-    {
       "date": "2026-09-29",
       "slot": "noon",
       "type": "tsubuyaki"
@@ -74,6 +59,11 @@
     {
       "date": "2026-10-04",
       "slot": "evening",
+      "type": "tsubuyaki"
+    },
+    {
+      "date": "2026-10-05",
+      "slot": "noon",
       "type": "tsubuyaki"
     }
   ]
