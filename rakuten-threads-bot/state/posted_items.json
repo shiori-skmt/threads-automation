@@ -44,6 +44,11 @@
       "itemCode": "grouport:10000066",
       "date": "2026-10-06",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "marutengroup:10000021",
+      "date": "2026-10-06",
+      "genre": "food"
     }
   ]
 }
