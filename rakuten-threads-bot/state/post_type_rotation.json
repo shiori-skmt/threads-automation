@@ -2,11 +2,6 @@
   "target_pr_ratio": 0.4,
   "history": [
     {
-      "date": "2026-09-24",
-      "slot": "legacy",
-      "type": "tsubuyaki"
-    },
-    {
       "date": "2026-09-29",
       "slot": "noon",
       "type": "tsubuyaki"
@@ -85,6 +80,11 @@
       "date": "2026-10-06",
       "slot": "extra-1605",
       "type": "tsubuyaki"
+    },
+    {
+      "date": "2026-10-06",
+      "slot": "evening",
+      "type": "pr"
     }
   ]
 }
