@@ -54,6 +54,11 @@
       "itemCode": "tiny-doggy:10000130",
       "date": "2026-10-06",
       "genre": "pet"
+    },
+    {
+      "itemCode": "mythik:10000122",
+      "date": "2026-10-07",
+      "genre": "kids"
     }
   ]
 }
