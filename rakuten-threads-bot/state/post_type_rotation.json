@@ -13,6 +13,7 @@
     {"date": "2026-10-07", "slot": "noon", "type": "pr"},
     {"date": "2026-10-07", "slot": "evening", "type": "pr"},
     {"date": "2026-10-08", "slot": "noon", "type": "pr"},
-    {"date": "2026-10-08", "slot": "evening", "type": "pr"}
+    {"date": "2026-10-08", "slot": "evening", "type": "pr"},
+    {"date": "2026-10-08", "slot": "night", "type": "pr"}
   ]
 }

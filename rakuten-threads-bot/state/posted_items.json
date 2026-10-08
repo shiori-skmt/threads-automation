@@ -74,6 +74,11 @@
       "itemCode": "purple7:10000575",
       "date": "2026-10-08",
       "genre": "pet"
+    },
+    {
+      "itemCode": "interior-palette:10096108",
+      "date": "2026-10-08",
+      "genre": "interior"
     }
   ]
 }
