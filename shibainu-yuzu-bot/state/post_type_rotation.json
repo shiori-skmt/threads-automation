@@ -2,16 +2,6 @@
   "target_pr_ratio": 0.4,
   "history": [
     {
-      "date": "2026-10-03",
-      "slot": "noon",
-      "type": "pr"
-    },
-    {
-      "date": "2026-10-03",
-      "slot": "evening",
-      "type": "pr"
-    },
-    {
       "date": "2026-10-04",
       "slot": "noon",
       "type": "pr"
@@ -69,6 +59,11 @@
     {
       "date": "2026-10-08",
       "slot": "evening",
+      "type": "pr"
+    },
+    {
+      "date": "2026-10-09",
+      "slot": "noon",
       "type": "pr"
     }
   ]
