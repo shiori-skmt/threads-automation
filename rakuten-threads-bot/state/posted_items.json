@@ -74,6 +74,11 @@
       "itemCode": "purple7:10000575",
       "date": "2026-10-08",
       "genre": "pet"
+    },
+    {
+      "itemCode": "tcconlineshop:10000035",
+      "date": "2026-10-09",
+      "genre": "kids"
     }
   ]
 }
