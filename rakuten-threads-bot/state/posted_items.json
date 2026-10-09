@@ -84,6 +84,11 @@
       "itemCode": "elmundofoods:10001277",
       "date": "2026-10-09",
       "genre": "kids"
+    },
+    {
+      "itemCode": "ichifujiec:10000155",
+      "date": "2026-10-09",
+      "genre": "kitchen"
     }
   ]
 }
