@@ -84,6 +84,11 @@
       "itemCode": "elmundofoods:10001277",
       "date": "2026-10-09",
       "genre": "kids"
+    },
+    {
+      "itemCode": "atelierofsleep:10000869",
+      "date": "2026-10-10",
+      "genre": "fashion"
     }
   ]
 }
