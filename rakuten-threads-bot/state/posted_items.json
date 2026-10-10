@@ -89,6 +89,11 @@
       "itemCode": "atelierofsleep:10000869",
       "date": "2026-10-10",
       "genre": "fashion"
+    },
+    {
+      "itemCode": "ps-primary:10000008",
+      "date": "2026-10-10",
+      "genre": "kitchen"
     }
   ]
 }
