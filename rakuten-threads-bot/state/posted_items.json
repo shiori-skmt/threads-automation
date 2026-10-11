@@ -94,6 +94,11 @@
       "itemCode": "bee1203:10000089",
       "date": "2026-10-11",
       "genre": "food"
+    },
+    {
+      "itemCode": "matsucame:10064514",
+      "date": "2026-10-11",
+      "genre": "home"
     }
   ]
 }
