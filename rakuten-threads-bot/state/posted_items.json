@@ -109,6 +109,11 @@
       "itemCode": "hondatrade:10000116",
       "date": "2026-10-12",
       "genre": "pet"
+    },
+    {
+      "itemCode": "kainan-zakka:10002371",
+      "date": "2026-10-12",
+      "genre": "home"
     }
   ]
 }
