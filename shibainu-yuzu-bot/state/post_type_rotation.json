@@ -3,11 +3,6 @@
   "history": [
     {
       "date": "2026-10-06",
-      "slot": "extra-1605",
-      "type": "tsubuyaki"
-    },
-    {
-      "date": "2026-10-06",
       "slot": "evening",
       "type": "pr"
     },
@@ -68,6 +63,11 @@
     },
     {
       "date": "2026-10-12",
+      "slot": "evening",
+      "type": "pr"
+    },
+    {
+      "date": "2026-10-13",
       "slot": "evening",
       "type": "pr"
     }
