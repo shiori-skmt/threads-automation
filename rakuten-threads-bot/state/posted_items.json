@@ -124,6 +124,11 @@
       "itemCode": "auc-yamatoya:10002095",
       "date": "2026-10-15",
       "genre": "kids"
+    },
+    {
+      "itemCode": "petground:10000080",
+      "date": "2026-10-15",
+      "genre": "pet"
     }
   ]
 }
