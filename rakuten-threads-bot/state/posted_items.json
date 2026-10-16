@@ -129,6 +129,11 @@
       "itemCode": "chinavi:10001082",
       "date": "2026-10-15",
       "genre": "kids"
+    },
+    {
+      "itemCode": "assistone:10008980",
+      "date": "2026-10-16",
+      "genre": "home"
     }
   ]
 }
