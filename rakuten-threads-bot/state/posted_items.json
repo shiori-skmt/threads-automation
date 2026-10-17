@@ -134,6 +134,11 @@
       "itemCode": "assistone:10008980",
       "date": "2026-10-16",
       "genre": "home"
+    },
+    {
+      "itemCode": "shopworld:10141900",
+      "date": "2026-10-17",
+      "genre": "kitchen"
     }
   ]
 }
