@@ -139,6 +139,11 @@
       "itemCode": "shopworld:10141900",
       "date": "2026-10-17",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "hahonico-happylife:10001017",
+      "date": "2026-10-18",
+      "genre": "pet"
     }
   ]
 }
