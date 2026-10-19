@@ -144,6 +144,11 @@
       "itemCode": "sunshine-store:10000566",
       "date": "2026-10-18",
       "genre": "home"
+    },
+    {
+      "itemCode": "lepro:10000061",
+      "date": "2026-10-19",
+      "genre": "home"
     }
   ]
 }
