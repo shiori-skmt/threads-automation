@@ -149,6 +149,11 @@
       "itemCode": "maryplus:10000762",
       "date": "2026-10-19",
       "genre": "home"
+    },
+    {
+      "itemCode": "ignis:10000723",
+      "date": "2026-10-20",
+      "genre": "kitchen"
     }
   ]
 }
