@@ -154,6 +154,11 @@
       "itemCode": "ignis:10000723",
       "date": "2026-10-20",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "yaw:10005600",
+      "date": "2026-10-21",
+      "genre": "kids"
     }
   ]
 }
