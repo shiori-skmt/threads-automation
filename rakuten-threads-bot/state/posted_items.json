@@ -159,6 +159,11 @@
       "itemCode": "townland:10007903",
       "date": "2026-10-21",
       "genre": "home"
+    },
+    {
+      "itemCode": "leg-one:10001065",
+      "date": "2026-10-22",
+      "genre": "fashion"
     }
   ]
 }
