@@ -159,6 +159,11 @@
       "itemCode": "townland:10007903",
       "date": "2026-10-21",
       "genre": "home"
+    },
+    {
+      "itemCode": "atfashion:10000096",
+      "date": "2026-10-22",
+      "genre": "kids"
     }
   ]
 }
