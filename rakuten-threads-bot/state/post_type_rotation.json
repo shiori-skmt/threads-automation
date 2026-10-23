@@ -1,10 +1,6 @@
 {
   "target_pr_ratio": 0.4,
   "history": [
-    {"date": "2026-10-11", "slot": "noon", "type": "pr"},
-    {"date": "2026-10-11", "slot": "evening", "type": "pr"},
-    {"date": "2026-10-12", "slot": "noon", "type": "pr"},
-    {"date": "2026-10-12", "slot": "night", "type": "pr"},
     {"date": "2026-10-14", "slot": "night", "type": "pr"},
     {"date": "2026-10-15", "slot": "noon", "type": "pr"},
     {"date": "2026-10-15", "slot": "night", "type": "pr"},
@@ -14,6 +10,7 @@
     {"date": "2026-10-19", "slot": "night", "type": "pr"},
     {"date": "2026-10-20", "slot": "night", "type": "pr"},
     {"date": "2026-10-21", "slot": "night", "type": "pr"},
-    {"date": "2026-10-22", "slot": "night", "type": "pr"}
+    {"date": "2026-10-22", "slot": "night", "type": "pr"},
+    {"date": "2026-10-23", "slot": "night", "type": "pr"}
   ]
 }
