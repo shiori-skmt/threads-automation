@@ -98,7 +98,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
      ?media_type=TEXT&text={本文}&access_token={THREADS_ACCESS_TOKEN}
    ```
    → 同様に `threads_publish` で公開
-4. 投稿成功後、`state/morning_greeting/approved/{今日の日付}.md` を `state/morning_greeting/posted/{今日の日付}.md` に移動する
+4. 投稿成功後、`state/morning_greeting/approved/{今日の日付}.md` を `state/morning_greeting/posted/{今日の日付}.md` に移動し、`git add shibainu-yuzu-bot/state` → `commit` → `git pull --rebase origin main` → 必ず `git push origin HEAD:main` でmainブランチへpushする(claude/〜ブランチへのpushだけではmainに反映されないため不可。**2026-10-25追加: このpush漏れにより10/15〜10/24分の投稿済みドラフトがapproved/に10日間取り残される不具合が発生したため明記**)
 5. ユーザーに一言報告する
 6. 投稿に失敗した場合、ユーザーにエラー内容を報告する
 
