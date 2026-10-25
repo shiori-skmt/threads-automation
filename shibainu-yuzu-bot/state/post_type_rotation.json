@@ -3,11 +3,6 @@
   "history": [
     {
       "date": "2026-10-12",
-      "slot": "noon",
-      "type": "pr"
-    },
-    {
-      "date": "2026-10-12",
       "slot": "evening",
       "type": "pr"
     },
@@ -69,6 +64,11 @@
     {
       "date": "2026-10-24",
       "slot": "night",
+      "type": "pr"
+    },
+    {
+      "date": "2026-10-25",
+      "slot": "noon",
       "type": "pr"
     }
   ]
