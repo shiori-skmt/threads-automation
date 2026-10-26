@@ -179,6 +179,11 @@
       "itemCode": "stargenius:10000049",
       "date": "2026-10-25",
       "genre": "home"
+    },
+    {
+      "itemCode": "ken-inc:10000007",
+      "date": "2026-10-26",
+      "genre": "kitchen"
     }
   ]
 }
