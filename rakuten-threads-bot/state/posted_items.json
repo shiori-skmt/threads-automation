@@ -189,6 +189,11 @@
       "itemCode": "auc-dolphinshop:10000090",
       "date": "2026-10-27",
       "genre": "home"
+    },
+    {
+      "itemCode": "aromadeer:10000066",
+      "date": "2026-10-28",
+      "genre": "beauty"
     }
   ]
 }
