@@ -204,6 +204,11 @@
       "itemCode": "shopworld:10139959",
       "date": "2026-10-30",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "atlas-online:10000185",
+      "date": "2026-10-30",
+      "genre": "kitchen"
     }
   ]
 }
