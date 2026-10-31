@@ -209,6 +209,11 @@
       "itemCode": "atlas-online:10000185",
       "date": "2026-10-30",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "kai:10009633",
+      "date": "2026-10-31",
+      "genre": "kitchen"
     }
   ]
 }
