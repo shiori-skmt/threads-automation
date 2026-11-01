@@ -21,3 +21,6 @@
   - 翌日分は、前夜の22:55のチェックで、朝・①昼・②15時台・③夕方・④20時台・⑤夜が両アカウントとも揃っているかを見て、足りない枠を作って承認済みにする。
   - 当日分は、各チェックの時点で、時間帯が過ぎているのにドラフトも投稿も無い枠があれば、作って投稿する(期限は `tools/check_posts.py` の補填期限と同じ。朝あいさつは予定の4時間以内、それ以外は枠の終了から6時間以内。期限を過ぎたものは、投稿せず報告のみ)。
   - 作るときは、PIPELINE.md の 1.10(日次インサイト)・1.11(時間帯)・8.5〜8.8(文体)・7日ルール・`recent_facts.md` に従う。
+
+## 環境がリセットされたとき(2026-11-02に発生)
+- セッションの作業環境(/home/user・scratchpad)が消えることがある。そのときは: ①add_repo ツールでリポジトリを確認し、`git clone --depth 50 https://github.com/shiori-skmt/threads-automation /home/user/threads-automation` ②`/home/user/run_check.sh` を作り直す(トークンの環境変数 `THREADS_TOKEN_R`/`THREADS_TOKEN_Y` を設定して、`tools/check_posts.py "$@"` を実行する)。トークンは、ルーティン【一般】15時つぶやき・【ゆず】15時つぶやき の手順(get_trigger で読める)にある `THREADS_ACCESS_TOKEN` を使う。ファイル・コミット・出力には書かない(`/home/user/run_check.sh` はリポジトリの外)。
