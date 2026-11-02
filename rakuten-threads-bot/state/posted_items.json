@@ -219,6 +219,11 @@
       "itemCode": "roomy-garden:10021410",
       "date": "2026-11-01",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "pupo-iwashita:10000938",
+      "date": "2026-11-02",
+      "genre": "kids"
     }
   ]
 }
