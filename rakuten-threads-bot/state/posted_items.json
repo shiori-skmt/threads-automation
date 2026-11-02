@@ -219,6 +219,11 @@
       "itemCode": "roomy-garden:10021410",
       "date": "2026-11-01",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "tiger-online:10005115",
+      "date": "2026-11-02",
+      "genre": "kitchen"
     }
   ]
 }
