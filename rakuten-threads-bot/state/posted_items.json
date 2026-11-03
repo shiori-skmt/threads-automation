@@ -224,6 +224,11 @@
       "itemCode": "tengoku:10034283",
       "date": "2026-11-02",
       "genre": "home"
+    },
+    {
+      "itemCode": "nipponseal:10000010",
+      "date": "2026-11-03",
+      "genre": "pet"
     }
   ]
 }
