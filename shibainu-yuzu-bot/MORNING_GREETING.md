@@ -107,3 +107,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 1. 修正指示があれば、それを反映してから進める
 2. `state/morning_greeting/pending/{対象日}.md` を `state/morning_greeting/approved/{対象日}.md` に移動する
 3. ユーザーに「{対象日}の朝6時に投稿されるようキューに登録しました」と報告する。**この時点でも投稿はしない**
+
+
+## 【2026-11-05】追記(ユーザー指示)
+- 「ぼちぼち」は使わない(PIPELINE.md 8.9節)。
