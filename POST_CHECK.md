@@ -24,3 +24,6 @@
 
 ## 環境がリセットされたとき(2026-11-02に発生)
 - セッションの作業環境(/home/user・scratchpad)が消えることがある。そのときは: ①add_repo ツールでリポジトリを確認し、`git clone --depth 50 https://github.com/shiori-skmt/threads-automation /home/user/threads-automation` ②`/home/user/run_check.sh` を作り直す(トークンの環境変数 `THREADS_TOKEN_R`/`THREADS_TOKEN_Y` を設定して、`tools/check_posts.py "$@"` を実行する)。トークンは、ルーティン【一般】15時つぶやき・【ゆず】15時つぶやき の手順(get_trigger で読める)にある `THREADS_ACCESS_TOKEN` を使う。ファイル・コミット・出力には書かない(`/home/user/run_check.sh` はリポジトリの外)。
+
+## マラソンの定例投稿
+楽天マラソンの日は、一般アカウントの「毎月買うものリスト」(`rakuten-threads-bot/MARATHON_POST.md`)を追加投稿する。ドラフトは `{日付}-marathon.md`。通常の6枠とは別枠なので、`check_posts.py` の対象外(投稿後は posted_drafts へ移す)。
