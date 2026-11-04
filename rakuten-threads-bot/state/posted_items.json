@@ -229,6 +229,11 @@
       "itemCode": "shunon:10000001",
       "date": "2026-11-03",
       "genre": "kids"
+    },
+    {
+      "itemCode": "healtath-j:10000530",
+      "date": "2026-11-04",
+      "genre": "home"
     }
   ]
 }
