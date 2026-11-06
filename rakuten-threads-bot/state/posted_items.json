@@ -239,6 +239,11 @@
       "itemCode": "nicotowel:10000416",
       "date": "2026-11-05",
       "genre": "home"
+    },
+    {
+      "itemCode": "hangyo:10001311",
+      "date": "2026-11-06",
+      "genre": "kitchen"
     }
   ]
 }
