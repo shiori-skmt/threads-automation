@@ -254,6 +254,11 @@
       "itemCode": "vegein:10000081",
       "date": "2026-11-08",
       "genre": "food"
+    },
+    {
+      "itemCode": "oneodio:10000059",
+      "date": "2026-11-09",
+      "genre": "other"
     }
   ]
 }
