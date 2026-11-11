@@ -264,6 +264,11 @@
       "itemCode": "rakuten24:11301010",
       "date": "2026-11-10",
       "genre": "kitchen"
+    },
+    {
+      "itemCode": "roomy:10014656",
+      "date": "2026-11-11",
+      "genre": "home"
     }
   ]
 }
