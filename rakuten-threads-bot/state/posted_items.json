@@ -279,6 +279,11 @@
       "itemCode": "shop405:11291493",
       "date": "2026-11-13",
       "genre": "pet"
+    },
+    {
+      "itemCode": "smilecook-r:10000123",
+      "date": "2026-11-14",
+      "genre": "food"
     }
   ]
 }
