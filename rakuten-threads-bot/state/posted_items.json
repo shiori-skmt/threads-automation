@@ -284,6 +284,11 @@
       "itemCode": "smilecook-r:10000123",
       "date": "2026-11-14",
       "genre": "food"
+    },
+    {
+      "itemCode": "teddyshop:10016168",
+      "date": "2026-11-15",
+      "genre": "fashion"
     }
   ]
 }
