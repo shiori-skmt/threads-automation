@@ -284,6 +284,11 @@
       "itemCode": "smilecook-r:10000123",
       "date": "2026-11-14",
       "genre": "food"
+    },
+    {
+      "itemCode": "mixshop2:10000117",
+      "date": "2026-11-15",
+      "genre": "kitchen"
     }
   ]
 }
