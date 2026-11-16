@@ -289,6 +289,11 @@
       "itemCode": "teddyshop:10016168",
       "date": "2026-11-15",
       "genre": "fashion"
+    },
+    {
+      "itemCode": "enetroom:10040315",
+      "date": "2026-11-16",
+      "genre": "home"
     }
   ]
 }
