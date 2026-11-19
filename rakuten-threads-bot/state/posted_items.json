@@ -304,6 +304,11 @@
       "itemCode": "llic:10001119",
       "date": "2026-11-18",
       "genre": "fashion"
+    },
+    {
+      "itemCode": "coffee-dripbag:10000125",
+      "date": "2026-11-19",
+      "genre": "food"
     }
   ]
 }
