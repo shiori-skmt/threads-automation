@@ -349,6 +349,11 @@
       "itemCode": "toucher-home:10000984",
       "date": "2026-11-27",
       "genre": "fashion"
+    },
+    {
+      "itemCode": "elmundofoods:10000555",
+      "date": "2026-11-28",
+      "genre": "kids"
     }
   ]
 }
